@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IIIT Nagpur</title>
+
+    <%- include('./partials/style-links.ejs') %>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <%- include('./partials/loader.ejs') %>
+
+    <div id="main">
+      <%- include('./partials/nav.ejs') %> 
+      <%- include('./pages/page1.ejs') %>
+      <%- include('./pages/page2.ejs') %> 
+      <%- include('./pages/page6.ejs') %>
+      <%- include('./pages/page5.ejs') %>
+      
+    </div>
+
+
+
+
+    <!-- Scripts -->
+    <%- include('./partials/scripts.ejs') %>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
